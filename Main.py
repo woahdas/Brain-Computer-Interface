@@ -6,13 +6,10 @@ from matplotlib import style
 import numpy as np
 import pandas as pd
 from pylsl import StreamInlet, resolve_stream
-import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
 from tensorflow.keras.layers import Conv1D, MaxPooling1D, BatchNormalization
 import os
-import random
-
 
 #printing raw data
 
